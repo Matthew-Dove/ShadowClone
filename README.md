@@ -45,6 +45,7 @@ Both the file modification, and encryption would be opt-in, as they have the pot
 * If a file is deleted from the source directory, do we delete it from all targets too? What if it was an accident, or a virus?
 * If an existing file is modified, do we overwrite the targets with that same file, or do we version files? (i.e. modifying a text file to empty is equivalent to deleting it)
 * If the source directory is blown away, what does a restore look like?
+* How often should data be rewritten to prevent fading - 1/3/5 years?
 
 
 ### License
